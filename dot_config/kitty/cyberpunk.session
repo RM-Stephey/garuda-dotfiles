@@ -1,0 +1,20 @@
+# Cyberpunk startup layout
+new_tab Main
+cd ~/
+layout tall
+launch zsh
+
+new_tab Code
+cd ~/projects
+layout tall
+launch zsh
+
+new_tab Monitor
+layout tall
+launch htop
+
+
+# Add to your cyberpunk.session:
+new_tab Matrix
+layout tall
+launch cmatrix -C cyan
